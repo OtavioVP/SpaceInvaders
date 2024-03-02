@@ -2,17 +2,19 @@ int x = 0, y = 0, x1 = 10, y1 = 10;
 String a = "TOCOU";
 final int ESQUERDA = 0,  DIREITA = 1, CIMA = 2, BAIXO = 3, CENTRO = 4;
 int estadoPlayer = 4;
+//String pastaImagem = sketchPath("image");
 PImage img1,star,sprite,ship,teste;
 
 void setup(){
   size(800,600);
   frameRate(30);
   textAlign(CENTER,TOP);
+  
 
-  img1 = loadImage("sprite.png");
-  star = loadImage("star.png");
-  ship = loadImage("assaultship.png");
-  teste = loadImage("shinestar.png");
+  img1 = loadImage("images/sprite.png");
+  star = loadImage("images/star.png");
+  ship = loadImage("images/assaultship.png");
+  teste = loadImage("images/shinestar.png");
 
 }
 
